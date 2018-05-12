@@ -5,37 +5,46 @@
     font-family: 'Arial', 'Helvetica Neue' Helvetica, sans-serif;
     color: #777;
     background-color: #777;
-    width: '960px';
-    font-size: '18px';
+    width: 960px;
+    font-size: 18px;
     
 }
 
-#top header {
-
-    background-color: #ebebeb;
-    width: 495px;
-    text-align: center;
+.header {
+        height: 80px;
+        margin: 10 auto;
+        text-align: center;
+        background-color: #ebebeb;
+        font: #777;
+        vertical-align: middle;
+        line-height: 80px;
 }
 
-#top nav {
-    background-color: #ebebeb;
-    width: 495px;
-    text-align: center;
+.nav {
+        height: 80px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #ebebeb;
+        font: #777;
+        vertical-align: middle;
+        line-height: 80px;
 }
 
-#section section {
+.article {
+        height: 80px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #ebebeb;
+        font: #777;
+        vertical-align: middle;
+        line-height: 80px;
 
-    background-color: #ebebeb;
-    width: 247.5;
-    text-align: center;
+
 }
 
-#article {
-    border: solid #ebebeb;
-    width: 247.5;
-    background-color: #777;
-    color: #ebebeb
-}
+
+
+
 
 
 
