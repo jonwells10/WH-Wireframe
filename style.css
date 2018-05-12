@@ -3,20 +3,38 @@
  body {
 
     font-family: 'Arial', 'Helvetica Neue' Helvetica, sans-serif;
-    color: white ;
+    color: #777;
     background-color: #777;
     width: '960px';
     font-size: '18px';
     
 }
 
-.header {
+#top header {
 
-    width: 300px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
+    background-color: #ebebeb;
+    width: 495px;
+    text-align: center;
+}
 
+#top nav {
+    background-color: #ebebeb;
+    width: 495px;
+    text-align: center;
+}
+
+#section section {
+
+    background-color: #ebebeb;
+    width: 247.5;
+    text-align: center;
+}
+
+#article {
+    border: solid #ebebeb;
+    width: 247.5;
+    background-color: #777;
+    color: #ebebeb
 }
 
 
