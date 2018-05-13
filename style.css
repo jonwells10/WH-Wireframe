@@ -38,14 +38,13 @@ div#section {
 div#wrapper {
     background-color: #ebebeb;
     width: 515px;
-    height: 330px;
     border: solid 10px #ebebeb;
 }
 
 
 div#article {
     text-align: center;
-    width: 495px;
+    width: 515px;
     height: 100px;
     background-color: #777;
     color: #ebebeb;
@@ -70,10 +69,23 @@ div#p {
 div#aside {
     text-align: center;
     position: fixed;
+    height: 125;
+    bottom: 115;
+    right: 350;
     background-color: #ebebeb;
     color: #777;
     border: solid 10px #777;
-    padding: 15px;
+    padding: 110px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #ebebeb;
+    border: solid px #777;
+    width: 750;
+    padding: 25px;
+    margin: 10px;
+
 }
 
 
