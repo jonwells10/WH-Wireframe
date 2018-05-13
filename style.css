@@ -9,6 +9,9 @@
     font-size: 18px;   
 }
 
+div{
+    margin: auto;
+}
 
 div#header {
     text-align: center;
@@ -37,15 +40,17 @@ div#section {
 
 div#wrapper {
     background-color: #ebebeb;
-    width: 515px;
     border: solid 10px #ebebeb;
+    width: 515;
+    left: 20;
+    position: absolute;
 }
 
 
 div#article {
     text-align: center;
-    width: 515px;
-    height: 100px;
+    width: 475px;
+    height: 60px;
     background-color: #777;
     color: #ebebeb;
 }
@@ -54,6 +59,7 @@ div#h1 {
     text-align: center;
     background-color: #ebebeb;
     color: #777;
+    width: 425px;
     border: solid 10px #777;
     padding: 15px;
 }
@@ -62,6 +68,7 @@ div#p {
     text-align: center;
     background-color: #ebebeb;
     color: #777;
+    width: 425px;
     border: solid 10px #777;
     padding: 15px;
 }
@@ -69,24 +76,30 @@ div#p {
 div#aside {
     text-align: center;
     position: fixed;
-    height: 125;
-    bottom: 115;
-    right: 350;
+    height: 50;
+    bottom: 215;
+    right: 355;
     background-color: #ebebeb;
     color: #777;
-    border: solid 10px #777;
-    padding: 110px;
+    border: solid 5px #777;
+    padding: 100px;
 }
 
-#footer {
+div#footer {
     text-align: center;
+    position: fixed;
+    height: 40;
+    width: 770;
+    bottom: 130;
+    left: 15;
     background-color: #ebebeb;
-    border: solid px #777;
-    width: 750;
-    padding: 25px;
-    margin: 10px;
+    color: #777;
+    border: solid 5px #777;
+    padding: 15px;
+
 
 }
+
 
 
 
