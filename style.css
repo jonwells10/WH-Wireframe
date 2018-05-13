@@ -6,20 +6,75 @@
     color: #777;
     background-color: #777;
     width: 960px;
-    font-size: 18px;
-    
+    font-size: 18px;   
 }
 
-div.wire {
+
+div#header {
+    text-align: center;
     background-color: #ebebeb;
-    height: 80px;
-    width: 496px;
-    border: 5px solid #777;
-    float: left;
-
+    border: solid px #777;
+    width: 750;
+    padding: 25px;
+    margin: 10px;
 }
 
 
+div#nav {
+    text-align: center;
+    background-color: #ebebeb;
+    border: solid px #777;
+    width: 750;
+    padding: 25px;
+    margin: 10px;
+}
+
+div#section {
+    text-align: center;
+    width: 495px;
+    border: solid 5px #ebebeb;
+}
+
+div#wrapper {
+    background-color: #ebebeb;
+    width: 515px;
+    height: 330px;
+    border: solid 10px #ebebeb;
+}
+
+
+div#article {
+    text-align: center;
+    width: 495px;
+    height: 100px;
+    background-color: #777;
+    color: #ebebeb;
+}
+
+div#h1 {
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    border: solid 10px #777;
+    padding: 15px;
+}
+
+div#p {
+    text-align: center;
+    background-color: #ebebeb;
+    color: #777;
+    border: solid 10px #777;
+    padding: 15px;
+}
+
+div#aside {
+    text-align: center;
+    position: fixed;
+    background-color: #ebebeb;
+    color: #777;
+    border: solid 10px #777;
+    padding: 15px;
+}
 
 
 
